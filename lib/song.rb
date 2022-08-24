@@ -27,6 +27,8 @@ class Song
         @@artists = @@artists.uniq
     end
 
+    # use of tally 
+    # Tallies the collection, i.e., counts the occurrences of each element. Returns a hash with the elements of the collection as keys and the corresponding counts as values
     def self.genre_count
         @@genres.tally
     end
